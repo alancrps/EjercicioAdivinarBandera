@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adivinar País</title>
+    <link rel="stylesheet" href="./assets/cs/styles.css">
+    <script src="./assets/js/main.js"></script>
+</head>
+<body onload="loadCountry()">
+    <main id="main">
+        <div id="subBox">
+            <div class="contenido">
+                <h1>Hola!</h1>
+                <div id="countryFlag"></div>
+                <label for="inputPais">Tratá de adivinar cual es este país: </label>
+                <input id="inputPais" type="text">
+                <button onclick="adivinarPais()" class="btn">ADIVINAR</button>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
